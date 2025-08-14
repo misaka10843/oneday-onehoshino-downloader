@@ -154,4 +154,5 @@ if __name__ == '__main__':
 
     # 如果需要，可以将所有新图片插入数据库
     for image in album_data['new_images']:
+        print(image)
         insert_image(album_data['album_id'], image['id'])

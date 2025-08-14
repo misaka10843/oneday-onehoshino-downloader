@@ -15,3 +15,5 @@ QUNID = os.environ.get("QUNID")
 ALBUMID = os.environ.get("ALBUMID")
 QQNUM = os.environ.get("QQNUM")
 TK = os.environ.get("TK")
+ALBUM_NAME = os.environ.get("ALBUM_NAME")
+HOSHINO = os.environ.get("HOSHINO") or False

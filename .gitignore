@@ -165,3 +165,4 @@ cython_debug/
 data/
 !data/.gitkeep
 .idea/UniappTool.xml
+tests/

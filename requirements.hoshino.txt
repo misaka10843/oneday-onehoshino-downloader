@@ -1,0 +1,4 @@
+paddlepaddle
+paddleocr
+natsort
+git+https://github.com/misaka10843/cbz.git
