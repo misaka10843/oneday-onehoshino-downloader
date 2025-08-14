@@ -4,7 +4,27 @@
 
 外加上一日一星野的下载器？！(将会使用ocr进行分类)
 
+## 如何使用
+
+普通群相册下载请确保将仓库下载下来解压之后运行`pip install requirements.txt`
+
+然后再将`.env.sample`重命名为`.env`
+
+最后配置成功后运行`python main.py`
+
+## 配置文件
+
+```dotenv
+COOKIES= # 在要下载群相册中的自己的QQ的cookie
+QUNID= # 要下载的群相册的群号
+ALBUMID= # 要下载的群相册ID
+QQNUM= # 在要下载群相册中的自己的qq号
+TK= # TK
+```
+
 ## 相关配置获取
+
+注意！因为qq的cookie保持时间可能就只有几个小时，所以`cookie`与`TK`建议在每次运行前重新获取一次
 
 ### cookie
 
