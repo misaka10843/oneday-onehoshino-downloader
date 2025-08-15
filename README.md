@@ -88,3 +88,7 @@ HOSHINO= # 一日一星野开关，请输入 True 或者 False，默认关闭
 先运行 `pip install requirements.hoshino.txt`
 
 再在.env文件中将`HOSHINO`更改为`True` `HOSHINO=True`
+
+### 附加功能
+
+在程序根目录运行`python -m functions.cbz_maker`即可自动将图片打包成cbz
