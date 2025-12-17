@@ -27,6 +27,7 @@ ALBUM_NAME= # 下载的群相册的文件夹名
 HOSHINO= # 一日一星野开关，请输入 True 或者 False，默认关闭
 OCR_DEBUG= # 当星野开关打开时，会在debug文件夹中输出ocr的识别内容以及是否匹配AID与BID，请输入 True 或者 False，默认关闭
 OCR_THREADS= # ocr的线程数，建议不超过4
+OCR_USE_GPU= # 是否使用GPU，建议关闭
 ```
 
 ## 相关配置获取
@@ -87,7 +88,12 @@ OCR_THREADS= # ocr的线程数，建议不超过4
 
 ### 如何开启
 
+> [!IMPORTANT]  
+> 当前支持GPU推理，但是需要注意ppocr当前对50系显卡支持有限，需前往官网安装专门的包才能使用
+
 先运行 `pip install requirements.hoshino.txt`
+
+如果是需要GPU推理则运行 `pip install requirements.hoshino.gpu.txt`
 
 再在.env文件中将`HOSHINO`更改为`True` `HOSHINO=True`
 

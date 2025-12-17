@@ -19,3 +19,4 @@ ALBUM_NAME = os.environ.get("ALBUM_NAME")
 HOSHINO = os.environ.get("HOSHINO") or False
 OCR_DEBUG = os.environ.get("OCR_DEBUG", "false").lower() == "true"
 OCR_THREADS = int(os.environ.get("OCR_THREADS", 4))
+OCR_USE_GPU = os.environ.get("OCR_USE_GPU", "false").lower() == "true"
