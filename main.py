@@ -35,7 +35,7 @@ if __name__ == '__main__':
         config.ALBUM_NAME = "oneday-onehoshino"
 
     setup_logger()
-    download()
+    #download()
 
     if config.HOSHINO:
         ocr.main()

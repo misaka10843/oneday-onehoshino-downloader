@@ -116,7 +116,6 @@ def res_album():
 
         if data.get('ret') != 0:
             raise Exception(f"API错误: {data}")
-
         album_name = data['data']['albuminfo']['name']
         # 处理图片列表
         for image in data["data"]["photolist"]:
